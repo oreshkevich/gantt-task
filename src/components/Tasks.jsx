@@ -244,10 +244,6 @@ export default function Tasks({ tasks }) {
     month.setMonth(month.getMonth() + 1);
   }
 
-  // const [on, setOn] = useState(true);
-  // const [onTwo, setOnTwo] = useState(true);
-  // const [onThree, setOnThree] = useState(true);
-  // const [onFour, setOnFour] = useState(true);
   if (taskDurations) {
     taskDurations.forEach((task) => {
       let mnth = new Date(startMonth);
